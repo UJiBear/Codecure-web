@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>week52</title>
+</head>
+<body>
+    <script>
+
+        const n = parseInt(prompt("원하는 연도를 입력하세요"));
+
+        if (n % 4 == 0){
+
+            if(n % 100 == 0){
+
+                if(n % 400 == 0){
+                    document.write(n+"년은 윤년이 입니다.");
+                }
+                else{
+                    document.write(n+"년은 윤년이 아닙니다.");
+                }
+            }
+            else{
+                document.write(n+"년은 윤년이 입니다.");
+            }
+        }
+        else {
+            document.write(n+"년은 윤년이 아닙니다.");
+        }
+
+
+
+
+
+
+    </script>
+</body>
+</html>
